@@ -32,7 +32,7 @@ requestChain.delete("http://localhost:8081/employee")
 
 ##Options
 
- * ```get(url, callback [, expectedStatusCode=200, goOnIfError=false])```
+ * ```get(url [, callback, expectedStatusCode=200, goOnIfError=false])```
  * ```post(url, object, [, expectedStatusCode=201, goOnIfError=false])```
  * ```put(url, object, [, expectedStatusCode=201, goOnIfError=false])```
  * ```delete(url [, expectedStatusCode=200, goOnIfError=false])```
