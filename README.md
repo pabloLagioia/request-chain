@@ -4,7 +4,7 @@ request-chain
 A library for executing requests one after the other
 
 ##Motivations
-There may be times where you need to execute one request, wait for the response, execute another and so on.
+There may be times when you need to execute one request, wait for the response, execute another and so on.
 Doing that with callback functions would turn out into a very difficult code to read.
 
 In our particular case, we have many rest services for which we need to create integration tests. So to ensure there is nothing
@@ -32,7 +32,7 @@ requestChain.delete("http://localhost:8081/employee")
 
 ##Options
 
- * get ```get(url, callback [, expectedStatusCode=200, goOnIfError=false])```
- * post ```post(url, object, [, expectedStatusCode=201, goOnIfError=false])```
- * put ```put(url, object, [, expectedStatusCode=201, goOnIfError=false])```
- * delete ```delete(url [, expectedStatusCode=200, goOnIfError=false])```
+ * ```get(url, callback [, expectedStatusCode=200, goOnIfError=false])```
+ * ```post(url, object, [, expectedStatusCode=201, goOnIfError=false])```
+ * ```put(url, object, [, expectedStatusCode=201, goOnIfError=false])```
+ * ```delete(url [, expectedStatusCode=200, goOnIfError=false])```

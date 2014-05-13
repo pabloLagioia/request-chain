@@ -7,7 +7,7 @@
         "chain",
         "http request"
     ],
-    "version": "0.1",
+    "version": "1.0.0",
     "author": {
         "name": "Pablo Lagioia",
         "email": "pablo.lagioia@gmail.com"
@@ -17,7 +17,7 @@
         "url": "https://github.com/pabloLagioia/request-chain"
     },
     "dependencies": {
-        "request": "~2.33",
+        "request": "~2.33"
     },
     "main": "./index"
 }
