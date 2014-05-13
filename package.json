@@ -1,0 +1,23 @@
+{
+    "name": "request-chain",
+    "description": "A library for executing requests one after the other",
+    "keywords": [
+        "request",
+        "sequence",
+        "chain",
+        "http request"
+    ],
+    "version": "0.1",
+    "author": {
+        "name": "Pablo Lagioia",
+        "email": "pablo.lagioia@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pabloLagioia/request-chain"
+    },
+    "dependencies": {
+        "request": "~2.33",
+    },
+    "main": "./index"
+}
